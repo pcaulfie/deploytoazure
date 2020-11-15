@@ -12,7 +12,7 @@ nextId=4
 
 @app.route('/')
 def index():
-    return "hello"
+    return "hello Python Anywhere"
 #get all
 @app.route('/books')
 def getAll():
